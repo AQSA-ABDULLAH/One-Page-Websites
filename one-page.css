@@ -1,0 +1,82 @@
+﻿
+body {
+    background-image: url(Images/One_P_Web.jpeg);
+    margin: 0;
+    border:0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+
+nav a {
+    text-decoration: none;
+    padding: 40px;
+    text-align: center;
+    float: left;
+    color: antiquewhite;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    flex: 1;
+    margin: 2%;
+}
+.right{
+    flex: 1;
+     margin:2%;
+}
+
+#first{
+    text-align:center;
+}
+#second{
+    text-align:center;
+}
+#third{
+    margin: 6%;
+    color: white;
+    font-size: 65px;
+}
+
+.Form-Outer{
+    background-color: white;
+    margin:5%;
+    text-align: center;
+    width: 50%;
+}
+.Form-Inner{
+    padding: 2px;
+}
+
+input[type="text"]{
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+input[type="submit"]{
+    background-color:aquamarine;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: zoom-in;
+}
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
